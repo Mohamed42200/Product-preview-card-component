@@ -157,7 +157,6 @@ footer {
         width: 100%;
         max-width: 600px;
         height: auto;
-
     }
 
     .image {
@@ -171,12 +170,20 @@ footer {
     }
 
     .attribution {
-        padding: 0.5rem;
+        padding: 0.2rem;
     }
 
     .attribution p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
 
+}
+
+@media (max-height: 430px) {
+
+    /* for phone rotate*/
+    .main-section {
+        min-height: 140vh;
+    }
 }
